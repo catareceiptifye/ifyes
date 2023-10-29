@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #f0f0f0;
+        font-family: Arial, sans-serif;
+    }
+    .title {
+        font-size: 5em;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .login-button {
+        background-color: #7289da;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 12px;
+        transition: background-color 0.3s;
+    }
+    .login-button:hover {
+        background-color: #5b6eae;
+    }
+</style>
+</head>
+<body>
+
+<div class="title">RECEIPTIFYE</div>
+<button class="login-button" onclick="window.location.href='/auth/discord'">Login with Discord</button>
+
+</body>
+</html>
